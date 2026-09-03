@@ -1,6 +1,14 @@
-# Ahmed Awais Rice Exporters Website
+# Ahmad Enterprises Website
 
-A modern, responsive website for Ahmed Awais Rice Exporters - a premium Pakistani rice export business specializing in Basmati and non-Basmati rice varieties.
+A modern, responsive website for Ahmad Enterprises - a premium Pakistani rice export business specializing in Basmati and non-Basmati rice varieties.
+
+## Business Information
+
+- **Company Name**: Ahmad Enterprises
+- **Contact Person**: Ahmad Awais
+- **Email**: ahmedawaisdangi@gmail.com
+- **Phone/WhatsApp**: +92 301 4001705
+- **Location**: Punjab, Pakistan
 
 ## Features
 
@@ -18,10 +26,15 @@ A modern, responsive website for Ahmed Awais Rice Exporters - a premium Pakistan
 2. **Features** - Key business highlights (Premium Quality, Global Export, etc.)
 3. **About** - Company background and statistics
 4. **Products** - Rice varieties with detailed descriptions
-   - Super Basmati Rice
-   - Sella Basmati Rice
-   - IRRI-6 Non-Basmati
-   - Broken Rice
+   - Super Basmati
+   - 1121 Basmati
+   - Basmati 385
+   - PK 386
+   - Basmati D-98 / PK-198
+   - IRRI-9
+   - IRRI-6
+   - KS-282
+   - Brown Rice
 5. **Quality** - Quality standards and certifications
 6. **Contact** - Comprehensive contact form and business information
 
@@ -49,10 +62,10 @@ rice-export-website/
 #### Update Business Information
 
 Edit the following in `index.html`:
-- Company name: Currently "Ahmed Awais Rice Exporters"
+- Company name: "Ahmad Enterprises"
 - Contact information in the contact section
-- Email addresses (currently placeholder: info@ahmedawaisrice.com)
-- Phone numbers (currently placeholder: +92 300 1234567)
+- Email: ahmedawaisdangi@gmail.com
+- Phone/WhatsApp: +92 301 4001705
 - Address details
 
 #### Modify Content
@@ -128,10 +141,13 @@ To make the contact form fully functional, you'll need to:
 ### Quick Setup with Formspree:
 
 1. Sign up at formspree.io
-2. Replace the form action in `index.html`:
+2. Create a new form and get your form endpoint
+3. Replace the form handling in `script.js` or update the form tag:
 ```html
 <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
 ```
+
+Currently, the form uses a mailto link to open the default email client with pre-filled inquiry details sent to ahmedawaisdangi@gmail.com.
 
 ## Customization Guide
 
@@ -145,9 +161,9 @@ Current images are from Unsplash. To use your own:
 ### Content Updates
 
 Search for these placeholders to replace:
-- `Ahmed Awais` - Your name
-- `info@ahmedawaisrice.com` - Your email
-- `+92 300 1234567` - Your phone number
+- `Ahmad Awais` - Contact person name
+- `ahmedawaisdangi@gmail.com` - Your email
+- `+92 301 4001705` - Your phone/WhatsApp number
 - Company descriptions and statistics
 
 ### Color Scheme
@@ -192,7 +208,7 @@ For customization help or technical support, you can:
 
 ## License
 
-This website template is created for Ahmed Awais Rice Exporters business use.
+This website template is created for Ahmad Enterprises business use.
 
 ---
 

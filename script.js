@@ -105,7 +105,7 @@ inquiryForm.addEventListener('submit', function(e) {
     // Create email content
     const emailSubject = `Rice Export Inquiry from ${formObject.name}`;
     const emailBody = `
-New inquiry from your website:
+New inquiry from Ahmad Enterprises website:
 
 Name: ${formObject.name}
 Email: ${formObject.email}
@@ -123,7 +123,7 @@ This inquiry was submitted through your website contact form.
     `.trim();
     
     // Create mailto link (for demonstration - in production, you'd send to a server)
-    const mailtoLink = `mailto:info@ahmedawaisrice.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:ahmedawaisdangi@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
     
     setTimeout(() => {
         // In a real application, you would send this data to a server
@@ -132,7 +132,7 @@ This inquiry was submitted through your website contact form.
         // Open default email client (for demonstration)
         window.location.href = mailtoLink;
         
-        alert('Thank you for your inquiry! Your default email client should open with a pre-filled message. If it doesn\'t open automatically, please copy the inquiry details and send them to info@ahmedawaisrice.com');
+        alert('Thank you for your inquiry! Your default email client should open with a pre-filled message. If it doesn\'t open automatically, please copy the inquiry details and send them to ahmedawaisdangi@gmail.com');
         
         // Reset form
         this.reset();
@@ -316,4 +316,4 @@ window.addEventListener('scroll', () => {
     }
 });
 
-console.log('Ahmed Awais Rice Exporters website loaded successfully!');
+console.log('Ahmad Enterprises website loaded successfully!');

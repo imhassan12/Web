@@ -1,0 +1,47 @@
+========================================
+  AHMAD ENTERPRISES - BUSINESS DETAILS
+========================================
+
+Company Name: Ahmad Enterprises
+Contact Person: Ahmad Awais
+Location: Punjab, Pakistan
+
+CONTACT INFORMATION:
+-------------------
+Email: ahmedawaisdangi@gmail.com
+Phone: +92 301 4001705
+WhatsApp: +92 301 4001705
+
+RICE VARIETIES EXPORTED:
+-----------------------
+1. Super Basmati
+2. Basmati 385
+3. PK 386
+4. 1121 Basmati
+5. Basmati D-98 / PK-198
+6. Brown Rice
+7. IRRI-9
+8. KS-282
+9. IRRI-6
+
+WEBSITE FILES:
+-------------
+- index.html (Main website page)
+- styles.css (All styling and responsive design)
+- script.js (Interactive functionality)
+- README.md (Setup and deployment instructions)
+
+DEPLOYMENT:
+----------
+This website is ready to deploy on:
+1. GitHub Pages (Free)
+2. Netlify (Free - Recommended)
+3. Vercel (Free)
+4. Any static hosting service
+
+The website is fully responsive and optimized for:
+- Mobile devices
+- Tablets
+- Desktop computers
+
+All content is professional and designed for international rice importers.
